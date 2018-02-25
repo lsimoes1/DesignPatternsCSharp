@@ -8,7 +8,7 @@ namespace CursoDesignPatterns
 {
     public class Orcamento
     {
-        EstadoDeUmOrcamento EstadoAtual { get; set; }
+        public EstadoDeUmOrcamento EstadoAtual { get; set; }
 
         public double Valor { get; set; }
         public IList<Item> itens { get; private set; }
